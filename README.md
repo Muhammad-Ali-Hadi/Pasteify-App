@@ -24,7 +24,34 @@
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3.svg?style=flat&logo=ESLint&logoColor=white)
 ![React Router](https://img.shields.io/badge/React%20Router-CA4245.svg?style=flat&logo=React-Router&logoColor=white)
 
+---  
+
+**📁 Folder Structure**  
+
+```
+pasteify-app/
+├── public/
+│   └── index.html            # Main HTML file
+│
+├── src/
+│   ├── components/           # Reusable UI components
+│   │   ├── Header.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Home.jsx
+│   │   ├── Paste.jsx         # Create a new paste
+│   │   └── ViewPaste.jsx     # View paste by ID
+│   │
+│   ├── App.jsx               # Main app file with routes
+│   ├── App.css               # Global styles
+│   └── main.jsx              # React root render
+│
+├── vercel.json               # SPA routing config for Vercel
+├── package.json              # Project dependencies and scripts
+└── README.md                 # Project overview (you are here!)
+
+```  
 ---
+
 
 ## 📚 Table of Contents
 

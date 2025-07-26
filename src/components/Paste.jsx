@@ -23,7 +23,7 @@ const Paste = () => {
             navigator.share({
                 title: paste.title,
                 text: 'Check out this paste : ',
-                URL: shareURL,
+                url: shareURL,
             }).then(()=>toast.success('Shared Successfully!'))
             .catch((error)=>toast.error('Error Sharing : '+error));
         }

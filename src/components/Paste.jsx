@@ -17,19 +17,16 @@ const Paste = () => {
 
     function manageSharing(paste)
     {
-        const shareURL=`${window.location.origin}/pastes/${paste.id}`;
         if(navigator.share)
         {
             navigator.share({
                 title: paste.title,
-                text: 'Check out this paste : ',
-                url: shareURL,
+                text: `Check out this paste : \n${paste.content}`,
             }).then(()=>toast.success('Shared Successfully!'))
             .catch((error)=>toast.error('Error Sharing : '+error));
         }
         else
         {
-            navigator.clipboard.writeText(shareURL);
             toast.success('Link Copied to Clipboard!');
         }
     }

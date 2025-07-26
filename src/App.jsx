@@ -11,7 +11,7 @@ const router=createBrowserRouter(
     {
       path: '/',
       element: 
-      <div>
+      <div style={{display: 'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
         <Header/>
         <Navbar/>
         <Home/>
@@ -20,7 +20,7 @@ const router=createBrowserRouter(
     {
       path: '/pastes',
       element: 
-      <div>
+      <div style={{display: 'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
         <Header/>
         <Navbar/>
         <Paste/>
@@ -29,7 +29,7 @@ const router=createBrowserRouter(
     {
       path: '/pastes/:id',
       element: 
-      <div>
+      <div style={{display: 'flex',flexDirection: 'column',justifyContent:'center',alignItems:'center'}}>
         <Header/>
         <Navbar/>
         <ViewPaste/>

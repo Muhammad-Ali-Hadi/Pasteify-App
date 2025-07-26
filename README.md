@@ -26,33 +26,6 @@
 
 ---  
 
-**📁 Folder Structure**  
-
-```
-pasteify-app/
-├── public/
-│   └── index.html            # Main HTML file
-│
-├── src/
-│   ├── components/           # Reusable UI components
-│   │   ├── Header.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── Home.jsx
-│   │   ├── Paste.jsx         # Create a new paste
-│   │   └── ViewPaste.jsx     # View paste by ID
-│   │
-│   ├── App.jsx               # Main app file with routes
-│   ├── App.css               # Global styles
-│   └── main.jsx              # React root render
-│
-├── vercel.json               # SPA routing config for Vercel
-├── package.json              # Project dependencies and scripts
-└── README.md                 # Project overview (you are here!)
-
-```  
----
-
-
 ## 📚 Table of Contents
 
 - [Overview](#-overview)
@@ -80,7 +53,33 @@ This project streamlines the process of snippet sharing and management. Core fea
 - 📤 **Easy Sharing** – Native sharing support and clipboard integration.
 - 🧹 **Code Quality Enforcement** – ESLint maintains clean, consistent, maintainable code.
 
----
+---  
+  
+**📁 Folder Structure**  
+
+```
+pasteify-app/
+├── public/
+│   └── index.html            # Main HTML file
+│
+├── src/
+│   ├── components/           # Reusable UI components
+│   │   ├── Header.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Home.jsx
+│   │   ├── Paste.jsx         # Create a new paste
+│   │   └── ViewPaste.jsx     # View paste by ID
+│   │
+│   ├── App.jsx               # Main app file with routes
+│   ├── App.css               # Global styles
+│   └── main.jsx              # React root render
+│
+├── vercel.json               # SPA routing config for Vercel
+├── package.json              # Project dependencies and scripts
+└── README.md                 # Project overview (you are here!)
+
+```  
+---  
 
 ## ⚙️ Getting Started
 

@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    padding: 10px;
+    color: white;
+    text-shadow: 0 0 4px blueviolet;
+}
